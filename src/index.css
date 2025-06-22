@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #db2c44;
+  --secondary-color: #bac3c9;
+  --accent-color: #446198;
+  --highlight-color: #eeb435;
+  --white-color: #fff;
+}
+
+.navbar-themed {
+  background-color: var(--primary-color);
+}
+
+.navbar-themed .navbar-brand {
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.navbar-themed .nav-link {
+  color: var(--white-color);
+}
+
+.navbar-themed .navbar-brand:hover,
+.navbar-themed .nav-link:hover {
+  color: var(--secondary-color);
+}
+
+.navbar-themed .navbar-toggler {
+  border-color: var(--secondary-color);
+}
+
+.navbar-themed .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ccd6dd' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
