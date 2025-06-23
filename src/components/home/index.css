@@ -1,0 +1,11 @@
+.home-container {
+  text-align: center;
+}
+
+.home-title {
+  color: var(--accent-color);
+}
+
+.home-description {
+  font-size: 1.3rem;
+}

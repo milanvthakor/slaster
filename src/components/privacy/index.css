@@ -1,0 +1,11 @@
+.privacy-container {
+  text-align: center;
+}
+
+.privacy-title {
+  color: var(--accent-color);
+}
+
+.privacy-description {
+  font-size: 1.3rem;
+}

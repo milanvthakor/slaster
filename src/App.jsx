@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router";
-import Home from "./Home";
-import Privacy from "./Privacy";
-import TermsOfUse from "./TermsOfUse";
-import Navigation from "./Navigation";
+import Home from "./components/home/index.jsx";
+import Privacy from "./components/privacy/index.jsx";
+import TermsOfUse from "./components/terms-of-use/index.jsx";
+import Navigation from "./components/nav/index.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {

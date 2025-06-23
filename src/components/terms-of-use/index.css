@@ -1,0 +1,11 @@
+.terms-of-use-container {
+  text-align: center;
+}
+
+.terms-of-use-title {
+  color: var(--accent-color);
+}
+
+.terms-of-use-description {
+  font-size: 1.3rem;
+}
