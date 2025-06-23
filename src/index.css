@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Mogra&display=swap");
+
 :root {
   --primary-color: #db2c44;
-  --secondary-color: #bac3c9;
+  --secondary-color: #eeb435;
+  --highlight-color: #bac3c9;
   --accent-color: #446198;
-  --highlight-color: #eeb435;
   --white-color: #fff;
+}
+
+body {
+  font-family: "Mogra", cursive;
 }
 
 .navbar-themed {
@@ -11,21 +17,21 @@
 }
 
 .navbar-themed .navbar-brand {
-  color: var(--white-color);
+  color: var(--secondary-color);
   font-weight: bold;
 }
 
 .navbar-themed .nav-link {
-  color: var(--white-color);
+  color: var(--secondary-color);
 }
 
 .navbar-themed .navbar-brand:hover,
 .navbar-themed .nav-link:hover {
-  color: var(--secondary-color);
+  color: var(--highlight-color);
 }
 
 .navbar-themed .navbar-toggler {
-  border-color: var(--secondary-color);
+  border-color: var(--highlight-color);
 }
 
 .navbar-themed .navbar-toggler-icon {
