@@ -3,11 +3,11 @@ import "./carousel.css";
 
 const carouselItems = [
   {
-    imageSrc: "/home.png",
+    imageSrc: "/slaster/home.png",
     altText: "Slaster Home Dashboard",
   },
   {
-    imageSrc: "/configure_status.png",
+    imageSrc: "/slaster/configure_status.png",
     altText: "Configure Status Settings",
   },
 ];
