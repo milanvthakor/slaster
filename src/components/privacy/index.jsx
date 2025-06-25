@@ -6,9 +6,7 @@ export default function PrivacyPolicy() {
       <h2 className="privacy-title">Privacy Policy</h2>
 
       <div className="privacy-content">
-        <p className="privacy-last-updated">
-          Last updated: {new Date().toLocaleDateString()}
-        </p>
+        <p className="privacy-last-updated">Last updated: 25th June 2025</p>
 
         <section className="privacy-section">
           <h3>1. Introduction</h3>
@@ -16,7 +14,9 @@ export default function PrivacyPolicy() {
             Slaster ("we," "our," or "us") is committed to protecting your
             privacy. This Privacy Policy explains how we handle your information
             when you use our Google Add-on application that connects Google
-            Calendar with Slack.{" "}
+            Calendar with Slack.
+          </p>
+          <p>
             <strong>
               Important: Slaster does not store any of your data on our servers.
             </strong>
@@ -249,7 +249,7 @@ export default function PrivacyPolicy() {
             practices, please contact us at:
           </p>
           <ul>
-            <li>Email: milanvthakor@gmail.com</li>
+            <li>Email: milanv.thakor@gmail.com</li>
             <li>
               GitHub:{" "}
               <a

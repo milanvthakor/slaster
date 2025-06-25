@@ -1,11 +1,90 @@
 .terms-of-use-container {
-  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
 }
 
 .terms-of-use-title {
   color: var(--accent-color);
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
 }
 
-.terms-of-use-description {
-  font-size: 1.3rem;
+.terms-of-use-content {
+  line-height: 1.6;
+}
+
+.terms-of-use-last-updated {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+.terms-of-use-section {
+  margin-bottom: 30px;
+}
+
+.terms-of-use-section h3 {
+  color: var(--accent-color);
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--highlight-color);
+  padding-bottom: 5px;
+}
+
+.terms-of-use-section h4 {
+  color: var(--primary-color);
+  margin: 20px 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.terms-of-use-section p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.terms-of-use-section ul {
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.terms-of-use-section li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.terms-of-use-section a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.terms-of-use-section a:hover {
+  text-decoration: underline;
+}
+
+.terms-of-use-section strong {
+  color: var(--primary-color);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .terms-of-use-container {
+    padding: 15px;
+  }
+
+  .terms-of-use-title {
+    font-size: 2rem;
+  }
+
+  .terms-of-use-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .terms-of-use-section h4 {
+    font-size: 1.1rem;
+  }
 }
