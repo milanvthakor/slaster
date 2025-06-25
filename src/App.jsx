@@ -11,9 +11,9 @@ export default function App() {
       <Navigation />
       <div className="container mt-4">
         <Routes>
-          <Route index element={<Home />} />
-          <Route path="privacy-policy" element={<Privacy />} />
-          <Route path="terms-of-use" element={<TermsOfUse />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/terms-of-use" element={<TermsOfUse />} />
         </Routes>
       </div>
     </div>
