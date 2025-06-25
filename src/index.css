@@ -37,3 +37,95 @@ body {
 .navbar-themed .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ccd6dd' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
+/* Common styles for content pages (terms of use, privacy policy, etc.) */
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.content-title {
+  color: var(--accent-color);
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.content-content {
+  line-height: 1.6;
+}
+
+.content-last-updated {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+.content-section {
+  margin-bottom: 30px;
+}
+
+.content-section h3 {
+  color: var(--accent-color);
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--highlight-color);
+  padding-bottom: 5px;
+}
+
+.content-section h4 {
+  color: var(--primary-color);
+  margin: 20px 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.content-section p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.content-section ul {
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.content-section li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.content-section a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.content-section a:hover {
+  text-decoration: underline;
+}
+
+.content-section strong {
+  color: var(--primary-color);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .content-container {
+    padding: 15px;
+  }
+
+  .content-title {
+    font-size: 2rem;
+  }
+
+  .content-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .content-section h4 {
+    font-size: 1.1rem;
+  }
+}

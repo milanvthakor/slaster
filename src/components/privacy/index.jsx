@@ -1,14 +1,12 @@
-import "./index.css";
-
 export default function PrivacyPolicy() {
   return (
-    <div className="privacy-container">
-      <h2 className="privacy-title">Privacy Policy</h2>
+    <div className="content-container">
+      <h2 className="content-title">Privacy Policy</h2>
 
-      <div className="privacy-content">
-        <p className="privacy-last-updated">Last updated: 25th June 2025</p>
+      <div className="content-content">
+        <p className="content-last-updated">Last updated: 25th June 2025</p>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>1. Introduction</h3>
           <p>
             Slaster ("we," "our," or "us") is committed to protecting your
@@ -23,7 +21,7 @@ export default function PrivacyPolicy() {
           </p>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>2. Information We Access (No Storage)</h3>
           <h4>2.1 Google Calendar Data</h4>
           <ul>
@@ -52,7 +50,7 @@ export default function PrivacyPolicy() {
           </p>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>3. How We Use Your Information</h3>
           <p>We use the accessed information to:</p>
           <ul>
@@ -73,7 +71,7 @@ export default function PrivacyPolicy() {
           </p>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>4. Data Storage and Retention</h3>
           <p>
             <strong>
@@ -105,7 +103,7 @@ export default function PrivacyPolicy() {
           </ul>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>5. Data Sharing and Disclosure</h3>
           <p>
             Since we don't store your data, there is no data sharing from our
@@ -131,7 +129,7 @@ export default function PrivacyPolicy() {
           </ul>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>6. Data Security</h3>
           <p>
             Our security approach focuses on secure data access rather than
@@ -146,7 +144,7 @@ export default function PrivacyPolicy() {
           </ul>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>7. Your Rights and Choices</h3>
           <p>
             Since we don't store your data, your rights are primarily about
@@ -176,7 +174,7 @@ export default function PrivacyPolicy() {
           </ul>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>8. Third-Party Services</h3>
           <p>
             Our service integrates with Google Calendar and Slack. Your data is
@@ -211,7 +209,7 @@ export default function PrivacyPolicy() {
           </p>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>9. Children's Privacy</h3>
           <p>
             Our service is not intended for children under 13 years of age. We
@@ -221,7 +219,7 @@ export default function PrivacyPolicy() {
           </p>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>10. International Data Transfers</h3>
           <p>
             Since we don't store your data, there are no international data
@@ -231,7 +229,7 @@ export default function PrivacyPolicy() {
           </p>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>11. Changes to This Privacy Policy</h3>
           <p>
             We may update this Privacy Policy from time to time. We will notify
@@ -242,7 +240,7 @@ export default function PrivacyPolicy() {
           </p>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>12. Contact Us</h3>
           <p>
             If you have any questions about this Privacy Policy or our data
@@ -263,7 +261,7 @@ export default function PrivacyPolicy() {
           </ul>
         </section>
 
-        <section className="privacy-section">
+        <section className="content-section">
           <h3>13. Compliance with Google Add-on Requirements</h3>
           <p>
             This privacy policy complies with Google Add-on app publishing

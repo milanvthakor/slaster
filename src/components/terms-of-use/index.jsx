@@ -1,16 +1,12 @@
-import "./index.css";
-
 export default function TermsOfUse() {
   return (
-    <div className="terms-of-use-container">
-      <h2 className="terms-of-use-title">Terms of Use</h2>
+    <div className="content-container">
+      <h2 className="content-title">Terms of Use</h2>
 
-      <div className="terms-of-use-content">
-        <p className="terms-of-use-last-updated">
-          Last updated: 25th June 2025
-        </p>
+      <div className="content-content">
+        <p className="content-last-updated">Last updated: 25th June 2025</p>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>1. Acceptance of Terms</h3>
           <p>
             By installing, accessing, or using Slaster ("the Service"), you
@@ -21,7 +17,7 @@ export default function TermsOfUse() {
           </p>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>2. Description of Service</h3>
           <p>Slaster provides the following functionality:</p>
           <ul>
@@ -48,7 +44,7 @@ export default function TermsOfUse() {
           </p>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>3. Eligibility and Account Requirements</h3>
           <p>To use Slaster, you must:</p>
           <ul>
@@ -65,7 +61,7 @@ export default function TermsOfUse() {
           </ul>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>4. User Responsibilities</h3>
           <p>You are responsible for:</p>
           <ul>
@@ -90,7 +86,7 @@ export default function TermsOfUse() {
           </ul>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>5. Data and Privacy</h3>
           <p>Regarding your data:</p>
           <ul>
@@ -117,7 +113,7 @@ export default function TermsOfUse() {
           </ul>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>6. Service Availability and Limitations</h3>
           <p>We strive to provide reliable service, but:</p>
           <ul>
@@ -137,7 +133,7 @@ export default function TermsOfUse() {
           </ul>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>7. Acceptable Use</h3>
           <p>You agree not to:</p>
           <ul>
@@ -156,7 +152,7 @@ export default function TermsOfUse() {
           </ul>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>8. Intellectual Property</h3>
           <p>Regarding intellectual property:</p>
           <ul>
@@ -179,7 +175,7 @@ export default function TermsOfUse() {
           </ul>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>9. Disclaimers and Limitations</h3>
           <p>
             <strong>Disclaimer of Warranties:</strong>
@@ -210,7 +206,7 @@ export default function TermsOfUse() {
           </ul>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>10. Termination</h3>
           <p>You may terminate your use of the Service at any time by:</p>
           <ul>
@@ -225,7 +221,7 @@ export default function TermsOfUse() {
           </p>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>11. Changes to Terms</h3>
           <p>
             We reserve the right to modify these Terms at any time. We will
@@ -244,7 +240,7 @@ export default function TermsOfUse() {
           </p>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>12. Governing Law and Disputes</h3>
           <p>
             These Terms are governed by the laws of the jurisdiction where we
@@ -260,7 +256,7 @@ export default function TermsOfUse() {
           </ul>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>13. Third-Party Services</h3>
           <p>The Service integrates with third-party services:</p>
           <ul>
@@ -295,7 +291,7 @@ export default function TermsOfUse() {
           </p>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>14. Severability</h3>
           <p>
             If any provision of these Terms is found to be unenforceable or
@@ -305,7 +301,7 @@ export default function TermsOfUse() {
           </p>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>15. Contact Information</h3>
           <p>
             If you have any questions about these Terms of Use, please contact
@@ -326,7 +322,7 @@ export default function TermsOfUse() {
           </ul>
         </section>
 
-        <section className="terms-of-use-section">
+        <section className="content-section">
           <h3>16. Compliance with Google Add-on Requirements</h3>
           <p>
             These Terms of Use comply with Google Add-on app publishing
